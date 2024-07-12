@@ -34,7 +34,7 @@ library(factoextra)
 # read.csv() učitava naš CSV file. 
 # Koristimo glimpse() za brzi pregled strukture podataka
 
-mall_data <- read.csv("Mall_Customers.csv")
+mall_data <- read.csv("Mall_Customers-1.csv")
 
 mall_data %>% glimpse()
 mall_data
